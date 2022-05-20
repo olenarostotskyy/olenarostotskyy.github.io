@@ -1,0 +1,61 @@
+header{
+    grid-row-start: 2;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end: 4;
+    background-color:rgb(141, 134, 201);
+
+} 
+
+
+.author-photo{
+    margin: 20px;
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+    
+    
+}
+
+.header-content{
+    align-content: space-around;
+    display: flex;
+}
+
+.header-content p{
+    margin: 10px;
+    line-height: 150%;
+    font-family: arial;
+    color:white;
+    text-align: center;
+}
+.header-content m{
+    color:white;
+    font-size: 2em;
+
+}
+
+.header-content .hello{
+    font-size: 0.875em;
+    
+}
+
+.header-content .info{
+    text-align:justify;
+
+}
+
+button{
+   
+    
+
+    width:100px;
+    background-color: rgb(144, 103, 198); 
+    color:white; 
+    border: 1px solid rgb(202, 196, 206);;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color: rgb(202, 196, 206);
+    color: white;
+  }
