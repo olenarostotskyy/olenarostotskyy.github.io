@@ -125,3 +125,7 @@ button:hover {
     list-style: circle;
     background-color: rgb(228, 221, 233);
 }
+
+.skills h3{
+    text-align: center;
+}

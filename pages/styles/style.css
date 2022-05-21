@@ -70,13 +70,33 @@ footer p{
 
 
 .footer-content{
+    display: block;
+    flex-direction:column;
+    justify-content: center;
     background-color: rgb(141, 134, 201);
 }
 
-.footer-content img {
-    width: 200px;
-    height:200px;
+.footer-content img{
+    margin: 1%;
+    width: 80px;
+    height:80px;
     object-fit: cover;
     border-radius: 50%;
 }
+.footer-img {
+    text-align: center;
+}
 
+.footer-content h2{
+    text-align: center;
+    color: white;
+}
+
+.footer-content a{
+    color:rgb(36, 32, 56);
+    text-decoration: none;
+}
+
+.footer-content a:hover{
+    color:rgb(144, 103, 198);
+}
