@@ -35,20 +35,7 @@ body{
 }
     
 
-footer {
-    grid-row-start: 4;
-    grid-row-end:5;
-    display: block;
-    grid-column-start:1;
-    grid-column-end:4;
-    background-color: rgb(36, 32, 56);
-}
 
-footer p{
-    color:white;
-    font-size: small;
-    text-align: center;
-}
 .nav-container li {
     float: left;
     border-right: 1px solid white;
@@ -71,9 +58,22 @@ footer p{
     background-color: rgb(144, 103, 198);
 }
 
-
-.footer-content{
+footer {
+    grid-row-start: 4;
+    grid-row-end:5;
     display: block;
+    grid-column-start:1;
+    grid-column-end:4;
+    background-color: rgb(36, 32, 56);
+}
+
+footer p{
+    color:white;
+    font-size: small;
+    text-align: center;
+}
+.footer-content{
+    
     flex-direction:column;
     justify-content: center;
     background-color: rgb(141, 134, 201);
