@@ -30,10 +30,6 @@ hr{
 }
 
 #maincontent{
-    
-    
-    border: khaki solid;
-    /* padding: 2px; */
     display: flex;
     justify-content: space-evenly;
     grid-column-start: 1;
